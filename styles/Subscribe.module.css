@@ -1,0 +1,14 @@
+.subscribe {
+  background-color: var(--fourth-color);
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-weight: 550;
+  border-radius: 4px;
+}
+
+.subscribe:hover {
+  background-color: var(--third-color);
+  color: var(--fourth-color);
+  font-weight: 700;
+}

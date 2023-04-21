@@ -1,0 +1,9 @@
+.container {
+  background-color: var(--third-color);
+  height: 75vh;
+}
+
+.paragraph {
+  padding: 2rem;
+  line-height: 1.8;
+}

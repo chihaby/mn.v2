@@ -1,0 +1,46 @@
+.container {
+  background-color: var(--third-color);
+  text-align: center;
+}
+
+.image {
+  display: none;
+}
+
+.list_group {
+  margin-left: 4.5rem;
+}
+
+.list_item {
+  width: 200px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 6px -6px black;
+  text-align: center;
+  font-size: large;
+  font-weight: 550;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    text-align: left;
+  }
+
+  .image__container div{
+    width: 100%;
+    position: unset !important;
+  }
+  
+  .image {
+    display: block;
+    object-fit: contain;
+    width: 60% !important;
+    position: relative !important;
+    height: unset !important;
+    margin-bottom: 20px;
+  }
+
+  .list_group {
+    margin-left: 6rem;
+  }
+}

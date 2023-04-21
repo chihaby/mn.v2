@@ -1,0 +1,17 @@
+.container {
+  background-color: var(--fourth-color);
+  color: white;
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.li {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.site_map {
+  color: white;
+}
