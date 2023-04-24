@@ -28,7 +28,10 @@ const Footer = () => {
                 <ul >
                   <li className={styles.li}>
                     <Link href='/' passHref><span className={styles.site_map}> Home</span></Link>
-                  </li>   
+                  </li>  
+                  <li className={styles.li}>
+                    <Link href='/about' passHref><span className={styles.site_map}>About</span></Link>
+                  </li>  
                   <li className={styles.li}>
                     <Link href='/music' passHref><span className={styles.site_map}>Music</span></Link>
                   </li>         
