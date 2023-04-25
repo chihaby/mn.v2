@@ -18,6 +18,7 @@ const Store = () => {
         </div>
         <Row >  
           <Col>
+            <h2>Amazon</h2>
             <Link href="https://www.amazon.com/dp/B01M2CFLMJ/ref=dm_rwp_pur_lnd_albm_fr" style={{ color: 'inherit', textDecoration: 'inherit'}} passHref legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
                 <Card className={styles.services}>
@@ -34,6 +35,7 @@ const Store = () => {
             </Link>
           </Col>          
           <Col>
+            <h2>eBay</h2>
             <Link href="https://www.ebay.com/itm/314053731461?epid=12046045253&hash=item491f0fa485:g:AmsAAOSw0f1htth4" style={{ color: 'inherit', textDecoration: 'inherit'}} passHref legacyBehavior>
             <a target="_blank" rel="noopener noreferrer">
               <Card className={styles.services}>

@@ -9,7 +9,7 @@ Extra extra large	xxl	≥1400px */
 
 .container {
   background-color: var(--third-color);
-  height: 100vh;
+  height: 82vh;
 }
 
 .strapline {
@@ -41,13 +41,13 @@ Extra extra large	xxl	≥1400px */
 }
 
 .image__container div{
-    width: 100%;
+    width: 65%;
     position: unset !important;
   }
 
 .image {
   object-fit: contain;
-  width: 100% !important;
+  width: 65% !important;
   position: relative !important;
   height: unset !important;
 }
@@ -74,13 +74,6 @@ Extra extra large	xxl	≥1400px */
     height: 95vh;
   }
 
-.image {
-  object-fit: contain;
-  width: 100% !important;
-  position: relative !important;
-  height: unset !important;
-}
-
   .hero__left {
     margin-top: 70px;
   }
@@ -98,16 +91,8 @@ Extra extra large	xxl	≥1400px */
 
 @media screen and (min-width: 1400px){
   .container {
-    height: 90vh;
+    height: 75vh;
   }
-
-.image {
-  object-fit: contain;
-  width: 100% !important;
-  position: relative !important;
-  height: unset !important;
-}
-  
   .hero__left {
     margin-top: 100px;
   }

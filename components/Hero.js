@@ -18,7 +18,7 @@ const Hero = () => {
         <Col xs={{span: 12, order: 1}} md={{span: 6, order: 1}} >      
             <Card className={styles.hero__left}>
               <div className={styles.image__container}>
-                <Image src={azure} alt="Mediterranean Nights Azure album cover" prop="fill" className={styles.image}/>
+                <Image src={azure} alt="Mediterranean Nights Azure album cover" prop="fill" className={styles.image} />
               </div> 
             </Card>
           </Col>
@@ -26,6 +26,9 @@ const Hero = () => {
             <div className={styles.hero__right} >
               <span className={styles.strapline}>Mediterranean Nights</span>
               <p className={styles.description}> Discover the beauty of the Mediterranean music with sensuous compositions like <em>A La Vida</em>, <em>Iris</em>, <em>Unrequited Love</em>, <em>Nights on the Mediterranean</em> and more.</p>
+              <p>
+                Subscribe now and never miss out on the latest releases. 
+              </p>
               <Subscribe />
               </div>
           </Col>

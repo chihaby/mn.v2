@@ -21,9 +21,6 @@ function Subscribe () {
 
   return (
     <div >
-      <p>
-        Subscribe now and never miss out on the latest releases. 
-      </p>
       <div>
         <input
           style={{width: '250px'}}

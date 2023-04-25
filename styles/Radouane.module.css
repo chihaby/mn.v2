@@ -1,9 +1,38 @@
 .container {
   background-color: white;
-  height: 65vh;
+  height: 75vh;
 }
 
 .paragraph {
   padding: 2rem;
   line-height: 1.8;
+}
+
+.about {
+  padding: 1rem;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    height: 90vh;
+  }
+}
+/* Fix the screen width */
+@media screen and (min-width: 1325px) {
+  .container {
+    height: 45vh;
+  }
 }
