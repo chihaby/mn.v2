@@ -4,6 +4,9 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Link from 'next/link'
 import styles from '../styles/Store.module.css'
+import Image from 'next/image'
+import amazon from '../public/img/amazon.jpg'
+import ebay from '../public/img/ebay.png'
 
 const Store = () => {
   return (
@@ -25,10 +28,11 @@ const Store = () => {
                   <Card.Body>
                   <Card.Title>Amazon</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">CDs</Card.Subtitle>
+                    <Image src={amazon} alt='amazon logo' width={300} height={150}/><br /><br />
                     <Card.Text>
                       Purchase CDs directly from our AMAZON store. FREE SHIPPING
                     </Card.Text>
-                    <Link href={'/contact'}>VIEW STORE</Link>
+                    <span>VISIT STORE</span>
                   </Card.Body>
                 </Card>
               </a>
@@ -42,10 +46,11 @@ const Store = () => {
                 <Card.Body>
                   <Card.Title>eBay</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">CDs</Card.Subtitle>
+                  <Image src={ebay} alt='amazon logo' width={300} height={150}/><br /><br />
                   <Card.Text>
                     Purchase CDs directly from our eBAY store.<br/> FREE SHIPPING
                   </Card.Text>
-                  <Link href={'/contact'}>VIEW STORE</Link>
+                  <Link href={'/contact'}>VISIT STORE</Link>
                 </Card.Body>
               </Card>
             </a>

@@ -1,6 +1,6 @@
 .container {
   background-color: var(--third-color);
-  height: 100vh;
+  height: 130vh;
 }
 
 .services {
@@ -14,3 +14,24 @@
   box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+@media (min-width: 550px) {
+  .container {
+    height: 100vh;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    height: 110vh;
+  }
+}
+
+@media (min-width: 1325px) {
+  .container {
+    height: 85vh;
+  }
+}
+
+
