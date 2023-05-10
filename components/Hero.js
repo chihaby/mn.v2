@@ -18,7 +18,7 @@ const Hero = () => {
         <Col xs={{span: 12, order: 1}} md={{span: 6, order: 1}} >      
             <Card className={styles.hero__left}>
               <div className={styles.image__container}>
-                <Image src={azure} alt="Mediterranean Nights Azure album cover" prop="fill" className={styles.image} />
+                <Image src={azure} width={370} alt="Mediterranean Nights Azure album cover" prop="fill" className={styles.image}  />
               </div> 
             </Card>
           </Col>

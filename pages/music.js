@@ -65,8 +65,9 @@ const music = () => {
           </Col>
         </Row>
       </Container>
-      <br /><br />
-      <Footer />
+      <div className={styles.footer__div}>
+        <Footer />
+      </div>
     </div>
   )
 }

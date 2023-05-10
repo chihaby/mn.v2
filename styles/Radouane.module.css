@@ -1,6 +1,6 @@
 .container {
   background-color: white;
-  height: 75vh;
+  height: 120vh;
 }
 
 .paragraph {
@@ -13,9 +13,17 @@
   line-height: 1.8;
 }
 
+.image__div {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     height: 60vh;
+  }
+
+  .image__div {
+    text-align: right;
   }
 }
 

@@ -34,13 +34,16 @@
   .image {
     display: block;
     object-fit: contain;
-    width: 60% !important;
+    width: 100% !important;
     position: relative !important;
     height: unset !important;
-    margin-bottom: 20px;
   }
 
   .list_group {
     margin-left: 6rem;
+  }
+
+  .footer__div {
+    margin-top: 200px;
   }
 }

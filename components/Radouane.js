@@ -2,7 +2,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Radouane.module.css'
+import Radouane from '../public/img/Radouane.JPG';
 
 const radouane = () => {
   return (
@@ -15,7 +17,9 @@ const radouane = () => {
         <br />
         <Row>
           <Col  xs={{span: 12, order: 1}} md={{span: 6, order: 2}}>
-            <h3>Image</h3>
+            <div className={styles.image__div}>
+              <Image src={Radouane} with={300} height={400} alt='photo of radouane from mediterranean nights' responsive/>
+            </div>
           </Col>
           <Col  className={styles.paragraph}  xs={{span: 12, order: 2}} md={{span: 6, order: 1}}>
             <h2>Radouane</h2>

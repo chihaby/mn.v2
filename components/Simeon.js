@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Link from 'next/link'
+import Image from 'next/image'
+import simeon from '../public/img/Simeon.JPG'
 import styles from '../styles/Simeon.module.css'
 
 
@@ -13,7 +15,9 @@ const Simeon = () => {
         <br />
         <Row>
           <Col  xs={{span: 12, order: 1}} md={{span: 6, order: 1}}>
-          <h3>Image</h3>
+          <div className={styles.image__div}>
+              <Image src={simeon} with={300} height={400} alt='photo of radouane from mediterranean nights' responsive/>
+            </div>
           </Col>
           <Col  className={styles.paragraph}  xs={{span: 12, order: 2}} md={{span: 6, order: 2}}>
             <h2>Simeon</h2>

@@ -23,7 +23,7 @@ function Subscribe () {
     <div >
       <div>
         <input
-          style={{width: '250px'}}
+          style={{width: '200px'}}
           type="text"
           placeholder="Enter Email"
           value={email}
