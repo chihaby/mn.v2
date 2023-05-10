@@ -16,7 +16,7 @@ const Store = () => {
           <br />
           <h1>Store</h1>
           <br />
-          <p>We have CDs of the album {"'"}Azure{"'"} available for sale in the following stores.</p>
+          <p>We have CDs of the album {"'"}Azure{"'"} available in the following stores.</p>
           <br />
         </div>
         <Row >  
