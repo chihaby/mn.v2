@@ -21,7 +21,7 @@ const Simeon = () => {
           </Col>
           <Col  className={styles.paragraph}  xs={{span: 12, order: 2}} md={{span: 6, order: 2}}>
             <h2>Simeon</h2>
-            <p >I grew up in Bulgaria under a Soviet influenced country and culture until my late teens. I excelled at math, science and reading in school, but I also intensely enjoyed music as a teenager. My father's love of music kept him playing Bulgarian folk and popular music of the 60s and 70s during all hours of the day at our home. Bulgarian music is rough and real. It has to be. The Bulgarian people have a national conscience and identity forged by hundreds of years of ...</p> 
+            <p >I grew up in Bulgaria under a Soviet influenced country and culture until my late teens. I excelled at math, science and reading in school, but I also intensely enjoyed music as a teenager. My father{"'"}s love of music kept him playing Bulgarian folk and popular music of the 60s and 70s during all hours of the day at our home. Bulgarian music is rough and real. It has to be. The Bulgarian people have a national conscience and identity forged by hundreds of years of ...</p> 
             <Link href={"/about"}>READ MORE</Link>           
           </Col>
         </Row>

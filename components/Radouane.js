@@ -23,7 +23,7 @@ const radouane = () => {
           </Col>
           <Col  className={styles.paragraph}  xs={{span: 12, order: 2}} md={{span: 6, order: 1}}>
             <h2>Radouane</h2>
-            <p >I grew up in Casablanca, Morocco in a lively and vibrant music culture. The incredible passion and joy of the Mediterranean music of Morocco is a fusion of Arabic, Spanish, French and Greek musical influences fueled by centuries of trade between the Mediterranean's dynamic and rich cultures. The North African music scene is inseparable from it's Mediterranean neighbors from whom it shares a rich history of melodic decadence. I heard the rhythms and beats that would be a ... </p>  
+            <p >I grew up in Casablanca, Morocco in a lively and vibrant music culture. The incredible passion and joy of the Mediterranean music of Morocco is a fusion of Arabic, Spanish, French and Greek musical influences fueled by centuries of trade between the Mediterranean{"'"}s dynamic and rich cultures. The North African music scene is inseparable from it{"'"}s Mediterranean neighbors from whom it shares a rich history of melodic decadence. I heard the rhythms and beats that would be a ... </p>  
             <Link href={"/about"}>READ MORE</Link>     
           </Col>
         </Row>
