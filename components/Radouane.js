@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Radouane.module.css'
-import Radouane from '../public/img/Radouane.JPG';
+import Radouane from '../public/img/Radouane.jpg';
 
 const radouane = () => {
   return (
