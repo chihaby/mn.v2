@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Link from 'next/link'
 import Image from 'next/image'
-import simeon from '../public/img/Simeon.jpg'
+import simeon from '../public/static/images/Simeon.jpg'
 import styles from '../styles/Simeon.module.css'
 
 
