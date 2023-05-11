@@ -51,7 +51,7 @@ header {
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
-  margin-left: 340px;
+  margin-left: 300px;
 }
 
 .nav__menu-bar div {
