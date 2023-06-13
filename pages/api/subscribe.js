@@ -50,7 +50,7 @@ const fn = async (req, res) => {
     return res.status(201).json({ error: null });
   } catch (error) {
     return res.status(400).json({
-      error: `Oops, something went wrong... Send me an email at contact@mediterranean.band and I'll add you to the list.`,
+      error: `Oops, something went wrong... Please send us an email to contact@mediterranean.band and we will add you to the list.`,
     });
 
     // Report error to Sentry or whatever
