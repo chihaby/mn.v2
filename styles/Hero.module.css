@@ -13,7 +13,7 @@ Extra extra large	xxl	≥1400px */
 }
 
 .strapline {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -67,6 +67,10 @@ Extra extra large	xxl	≥1400px */
   .hero__right {
     margin-top: 75px;
     float: right;
+  }
+
+  .strapline {
+    font-size: 35px;
   }
 
   .image__container div{

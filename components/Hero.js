@@ -23,7 +23,7 @@ const Hero = () => {
             </Card>
           </Col>
           <Col xs={{span: 12, order: 2}} md={{span: 6, order: 2}}>
-            <div className={styles.hero__right} >
+            <div className={styles.hero__right} ><br />
               <span className={styles.strapline}>Mediterranean Nights</span>
               <p className={styles.description}> Discover the beauty of the Mediterranean music with sensuous compositions like <em>A La Vida</em>, <em>Iris</em>, <em>Unrequited Love</em> and more.</p>
               <p>

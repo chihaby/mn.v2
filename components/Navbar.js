@@ -27,7 +27,7 @@ const Navbar = () => {
   const [activeIdx, setActiveIdx] = useState(0);
   return (
     <div style={{backgroundColor: '#222222'}}>
-      <Container>
+      <Container><br /><br />
         <nav className='nav'>
           <Link href={"/"} legacyBehavior>
             <a onClick={() => setActiveIdx(0)}> 

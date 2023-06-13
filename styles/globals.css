@@ -51,7 +51,8 @@ header {
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
-  margin-left: 300px;
+  margin-left: 290px;
+  margin-top: -135px;
 }
 
 .nav__menu-bar div {
@@ -63,7 +64,7 @@ header {
 
 .logo {
   text-decoration: none;
-  font-size: 50px;
+  font-size: 27px;
   font-weight: 600;
   color: var(--third-color);
 }
@@ -127,6 +128,9 @@ header {
 } */
 
 @media screen and (min-width: 768px){
+  .logo {
+    font-size: 50px;
+  }
   .nav__menu-bar {
     display: none;
   }
